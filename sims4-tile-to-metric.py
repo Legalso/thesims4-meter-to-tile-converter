@@ -1,4 +1,4 @@
-# Convertor de "tiles" do The Sims 4 para metros (m).
+# Convertor de metros (m) para "tiles" do The Sims 4.
 # Nos jogos The Sims, um "tile" representa 3 pés (cerca de 0,9144 metros). Um "tile" do The Sims 4 é equivalente a aproximadamente 0,8361 metros quadrados. Se você deseja converter para metros, cada "tile" seria aproximadamente 0,2787 metros de cada lado. Usamos a metade de um "tile" para calcular a área.
 
 # Função para verificar se a entrada é um número
@@ -10,7 +10,7 @@ def is_number(s):
         return False
 
 meters = 0.2787
-print("Bem vindo ao conversor de tiles para metros!")
+print("Bem vindo ao conversor de metros para tiles!")
 
 metersQuantity = input("Digite quantos metros deseja converter: ")
 
