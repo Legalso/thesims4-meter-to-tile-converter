@@ -17,5 +17,6 @@ metersQuantity = input("Digite quantos metros deseja converter: ")
 while not is_number(metersQuantity):
     metersQuantity = input("Digite quantos metros deseja converter: ")
 
-tiles = float(metersQuantity) / meters
+#every tile tem dois quadradinhos. no começo pensei nesse quadradinho como um tile, mas na verdade ele é metade de um tile. por isso a divisão por 2.
+tiles = (float(metersQuantity) / meters) /2
 print("Para", metersQuantity, "metros", "a quantidade de tiles é:", int(tiles))
